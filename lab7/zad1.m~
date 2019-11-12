@@ -15,7 +15,7 @@ img3 = convolution(images{3}, localWindow);
 
 img4 = convolution(images{4}, localWindow);
 
-img5 = convolution(images{5}, localWindow);
+img5 = convolution(images{1}, localWindow);
 
 subplot(3,2,1)
 imshow(uint8(img1),[]);
@@ -23,7 +23,7 @@ subplot(3,2,2)
 imshow(uint8(img2),[]);
 subplot(3,2,3)
 imshow(uint8(img3),[]);
-subplot(3,2,4)
+figure;
 imshow(uint8(img4),[]);
-subplot(3,2,5)
+figure;
 imshow(uint8(img5),[]);
