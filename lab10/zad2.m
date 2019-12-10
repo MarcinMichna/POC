@@ -9,10 +9,10 @@ figure;
 imshow(image, []);
 title('original image');
 
-%przestrzeñ HSV
+%przestrzeï¿½ HSV
 imageHSV = rgb2hsv(image);
 
-%tylko odcieñ
+%tylko odcieï¿½
 imageH = double(imageHSV(:,:,1));
 
 figure;
@@ -67,6 +67,7 @@ end
 
 figure;
 imshow(segRes,[]);
+title("final before filters")
 
 U = unique(segRes);
 
@@ -88,3 +89,4 @@ end
 finalRes = label2rgb(segRes);
 figure;
 imshow(finalRes);
+title("final after filters")

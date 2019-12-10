@@ -24,7 +24,7 @@ segmented(x, y) = 1;
 stack(iStack, 1:2) = [x, y];
 
 
-threshold = 50;
+threshold = 30;
 
 
 mV = 0;
