@@ -39,6 +39,7 @@ r = regionprops(labeled, 'Centroid');
 for i=1:length(r)
     text(r(i).Centroid(1), r(i).Centroid(2), ['\color{magenta}', num2str(i)]);
 end
+%% part2
 
 image = imread('shapesReal.png');
 
@@ -47,7 +48,7 @@ subplot(2,2,1)
 imshow(image);
 title("oryginal")
 subplot(2,2,2)
-image = im2bw(image, 50/255);
+image = im2bw(image, 60/255);
 imshow(image)
 title("binarized")
 subplot(2,2,3)
