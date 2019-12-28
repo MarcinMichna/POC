@@ -1,3 +1,4 @@
-# POC
+# Laboratoria z Przerwarzania Obrazów Cyfrowych
 
-Laboratoria z Przetwarzania Obrazów Cyfrowych
+Rok: 3
+Semestr: V
